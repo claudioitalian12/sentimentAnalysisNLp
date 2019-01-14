@@ -12,6 +12,7 @@
 		5D7D3D8321ED1EE500C9E08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D3D8121ED1EE500C9E08F /* Main.storyboard */; };
 		5D7D3D8521ED1EE700C9E08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D3D8421ED1EE700C9E08F /* Assets.xcassets */; };
 		5D7D3D8821ED1EE700C9E08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D3D8621ED1EE700C9E08F /* LaunchScreen.storyboard */; };
+		5D7D3D9221ED2A3300C9E08F /* TextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D3D8F21ED1EFA00C9E08F /* TextClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D7D3D8421ED1EE700C9E08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7D3D8721ED1EE700C9E08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7D3D8921ED1EE700C9E08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7D3D8F21ED1EFA00C9E08F /* TextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7D3D7D21ED1EE500C9E08F /* AppDelegate.swift */,
+				5D7D3D8F21ED1EFA00C9E08F /* TextClassifier.mlmodel */,
 				5D7D3D7F21ED1EE500C9E08F /* ViewController.swift */,
 				5D7D3D8121ED1EE500C9E08F /* Main.storyboard */,
 				5D7D3D8421ED1EE700C9E08F /* Assets.xcassets */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7D3D9221ED2A3300C9E08F /* TextClassifier.mlmodel in Sources */,
 				5D7D3D8021ED1EE500C9E08F /* ViewController.swift in Sources */,
 				5D7D3D7E21ED1EE500C9E08F /* AppDelegate.swift in Sources */,
 			);
